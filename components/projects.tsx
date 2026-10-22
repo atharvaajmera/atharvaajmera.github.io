@@ -24,7 +24,7 @@ const items = [
     title: "TeamBrain",
     description:
       "Privacy-aware Slack RAG assistant that intelligently retrieves and reconstructs relevant workspace conversations using semantic retrieval and local vector memory for accurate, context-grounded answers.",
-    header: <Skeleton />,
+    header: <Skeleton logo={<Image src={assetPath("/teambrain-logo.png")} alt="TeamBrain" fill className="object-cover" />} />,
     className: "md:col-span-1",
     githubLink: "https://github.com/atharvaajmera/team-brain",
   },
