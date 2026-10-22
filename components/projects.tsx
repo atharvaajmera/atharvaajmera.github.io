@@ -12,13 +12,13 @@ const Skeleton = ({ logo }: { logo?: React.ReactNode }) => (
 
 const items = [
   {
-    title: "TestiFy",
+    title: "Plenum",
     description:
-      "AI-powered test paper generator that creates structured question papers and solution PDFs from LaTeX generated via Gemini API. Features interactive quiz mode for practice and self-assessment.",
-    header: <Skeleton logo={<Image src={assetPath("/testify-logo.jpeg")} alt="TestiFy" fill className="object-cover" />} />,
+      "Zero-setup, cross-platform peer-to-peer file transfer built on a single shared Rust core. Ephemeral room codes with automatic LAN→WebRTC routing, fresh X25519 + ChaCha20 encryption per transfer, and native Windows (Tauri) and Android (Flutter) clients.",
+    header: <Skeleton logo={<Image src={assetPath("/plenum-logo.png")} alt="Plenum" fill className="object-cover" />} />,
     className: "md:col-span-1",
-    githubLink: "https://github.com/atharvaajmera/TestiFy",
-    demoLink: "https://testi-fy.vercel.app/",
+    githubLink: "https://github.com/atharvaajmera/Plenum",
+    demoLink: "https://plenumonline.me",
   },
   {
     title: "TeamBrain",
@@ -29,12 +29,13 @@ const items = [
     githubLink: "https://github.com/atharvaajmera/team-brain",
   },
   {
-    title: "HealthConnect",
+    title: "TestiFy",
     description:
-      "Cross-platform healthcare app with Supabase authentication and real-time location tracking. Manages ambulance tracking with persistent data synchronization and future driver assignment using combinatorial optimization algorithms.",
-    header: <Skeleton logo={<Image src={assetPath("/healthconnect-logo.jpeg")} alt="HealthConnect" fill className="object-cover" />} />,
+      "AI-powered test paper generator that creates structured question papers and solution PDFs from LaTeX generated via Gemini API. Features interactive quiz mode for practice and self-assessment.",
+    header: <Skeleton logo={<Image src={assetPath("/testify-logo.jpeg")} alt="TestiFy" fill className="object-cover" />} />,
     className: "md:col-span-1",
-    githubLink: "https://github.com/atharvaajmera/healthcare",
+    githubLink: "https://github.com/atharvaajmera/TestiFy",
+    demoLink: "https://testi-fy.vercel.app/",
   },
   {
     title: "Route Finder",
@@ -45,13 +46,12 @@ const items = [
     githubLink: "https://github.com/atharvaajmera/route-finder",
   },
   {
-    title: "Plenum",
+    title: "HealthConnect",
     description:
-      "Zero-setup, cross-platform peer-to-peer file transfer built on a single shared Rust core. Ephemeral room codes with automatic LAN→WebRTC routing, fresh X25519 + ChaCha20 encryption per transfer, and native Windows (Tauri) and Android (Flutter) clients.",
-    header: <Skeleton logo={<Image src={assetPath("/plenum-logo.png")} alt="Plenum" fill className="object-cover" />} />,
+      "Cross-platform healthcare app with Supabase authentication and real-time location tracking. Manages ambulance tracking with persistent data synchronization and future driver assignment using combinatorial optimization algorithms.",
+    header: <Skeleton logo={<Image src={assetPath("/healthconnect-logo.jpeg")} alt="HealthConnect" fill className="object-cover" />} />,
     className: "md:col-span-1",
-    githubLink: "https://github.com/atharvaajmera/Plenum",
-    demoLink: "https://plenumonline.me",
+    githubLink: "https://github.com/atharvaajmera/healthcare",
   },
 ];
 
