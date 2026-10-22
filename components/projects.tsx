@@ -44,6 +44,15 @@ const items = [
     className: "md:col-span-1",
     githubLink: "https://github.com/atharvaajmera/route-finder",
   },
+  {
+    title: "Plenum",
+    description:
+      "Zero-setup, cross-platform peer-to-peer file transfer built on a single shared Rust core. Ephemeral room codes with automatic LAN→WebRTC routing, fresh X25519 + ChaCha20 encryption per transfer, and native Windows (Tauri) and Android (Flutter) clients.",
+    header: <Skeleton logo={<Image src={assetPath("/plenum-logo.png")} alt="Plenum" fill className="object-cover" />} />,
+    className: "md:col-span-2",
+    githubLink: "https://github.com/atharvaajmera/Plenum",
+    demoLink: "https://plenumonline.me",
+  },
 ];
 
 export default function Projects() {
